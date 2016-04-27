@@ -4,7 +4,7 @@ var apiKeys = require('./config');
 
 var requestSettings = {
   method: 'GET',
-  url: 'http://datamine.mta.info/mta_esi.php?key=' + apiKeys.mta,
+  url: 'http://datamine.mta.info/mta_esi.php?key=' + apiKeys.mta + '&feed_id=2',
   encoding: null
 };
 
